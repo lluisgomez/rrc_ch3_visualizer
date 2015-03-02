@@ -1,2 +1,15 @@
 # rrc_ch3_visualizer
-Ground-truth visualization of the Robust Reading Competition Challenge 3 (Read Text in Videos) dataset.
+Ground-truth visualization of the Robust Reading Competition Challenge 3 (Read Text in Videos) dataset. http://rrc.cvc.uab.es/?ch=3
+
+Compile:
+
+  cmake .
+
+  make
+
+Use:
+
+  ./visualizer <XML_GT_FILE> <MP4_VIDEO_FILE>
+
+Where <XML_GT_FILE> and <MP4_VIDEO_FILE> are the XML ground-truth file and the mp4 video file respectively. You can download these files from the competition website: http://rrc.cvc.uab.es/?ch=3
+
