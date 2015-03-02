@@ -3,13 +3,13 @@ Ground-truth visualization of the Robust Reading Competition Challenge 3 (Read T
 
 Compile (requires OpenCV 2.4.x and TinyXML libraries):
 
-  cmake .
+>  cmake .
 
-  make
+>  make
 
 Use:
 
-  ./visualizer <XML_GT_FILE> <MP4_VIDEO_FILE>
+>  ./visualizer \<XML_GT_FILE\> \<MP4_VIDEO_FILE\>
 
-Where <XML_GT_FILE> and <MP4_VIDEO_FILE> are the XML ground-truth file and the mp4 video file respectively. You can download these files from the competition website: http://rrc.cvc.uab.es/?ch=3
+Where \<XML_GT_FILE\> and \<MP4_VIDEO_FILE\> are the XML ground-truth file and the mp4 video file respectively. You can download these files from the competition website: http://rrc.cvc.uab.es/?ch=3
 
