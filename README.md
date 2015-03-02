@@ -1,7 +1,7 @@
 # rrc_ch3_visualizer
 Ground-truth visualization of the Robust Reading Competition Challenge 3 (Read Text in Videos) dataset. http://rrc.cvc.uab.es/?ch=3
 
-Compile:
+Compile (requires OpenCV 2.4.x and TinyXML libraries):
 
   cmake .
 
